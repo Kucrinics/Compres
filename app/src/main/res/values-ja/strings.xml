@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kompres</string>
+    <string name="home_subtitle">ファイルを圧縮・変換・整理</string>
+
+    <string name="card_zip">ZIP アーカイブ</string>
+    <string name="card_images">画像</string>
+    <string name="card_docs">ドキュメント</string>
+    <string name="card_ocr">OCR</string>
+    <string name="card_merge">結合</string>
+    <string name="card_compress">PDF 圧縮</string>
+
+    <string name="desc_zip">ZIP アーカイブの作成と解凍</string>
+    <string name="desc_images">画像の変換・圧縮・トリミング</string>
+    <string name="desc_docs">PDF と Office 文書をプレビュー</string>
+    <string name="desc_ocr">写真からテキストを認識</string>
+    <string name="desc_merge">PDF と画像を 1 つの PDF に結合</string>
+    <string name="desc_compress">PDF のファイルサイズを削減</string>
+
+    <string name="coming_soon">近日公開</string>
+    <string name="action_back">戻る</string>
+    <string name="nav_settings">設定</string>
+
+    <string name="settings_title">設定</string>
+    <string name="settings_analytics_title">匿名の統計情報を送信</string>
+    <string name="settings_analytics_summary">アプリの改善に役立ちます。ファイルや個人データは送信されません。</string>
+    <string name="settings_privacy">プライバシーポリシー</string>
+    <string name="settings_language">言語</string>
+    <string name="settings_language_system">システムの既定</string>
+
+    <string name="privacy_title">プライバシーポリシー</string>
+    <string name="privacy_body">プライバシーポリシー\n\n運営者：Vyacheslav Kushnir\n連絡先：slava13795kush@mail.ru\n\n1. ファイルの処理。すべてのファイルはお使いの端末上でローカルに処理されます。アプリがファイルをサーバーにアップロードすることはありません。\n\n2. 分析。同意いただいた場合、アプリは AppMetrica と MyTracker を使用して匿名の利用統計（開いた画面と使用した機能）を収集します。このデータにはファイルの内容や個人情報は含まれません。設定でいつでも無効にできます。\n\n3. 権限。インターネットへのアクセスは、分析と OCR 言語モデルのダウンロードにのみ使用されます。分析 SDK は広告 ID にアクセスします。\n\n4. データの保存。統計情報は、各分析プロバイダーのポリシーに従って保存されます。\n\n5. お問い合わせ。ご質問は上記のメールで運営者までご連絡ください。</string>
+
+    <string name="zip_level">圧縮レベル</string>
+    <string name="zip_level_store">保存のみ</string>
+    <string name="zip_level_fast">高速</string>
+    <string name="zip_level_normal">標準</string>
+    <string name="zip_level_max">最大</string>
+    <string name="zip_create">アーカイブを作成</string>
+    <string name="zip_extract">アーカイブを解凍</string>
+    <string name="zip_preview">内容をプレビュー</string>
+    <string name="zip_cancel">キャンセル</string>
+    <string name="zip_clear">クリア</string>
+    <string name="zip_extract_selected">選択項目を解凍 (%1$d)</string>
+    <string name="msg_zip_created">アーカイブを作成しました</string>
+    <string name="msg_zip_extracted">解凍したファイル：%1$d</string>
+    <string name="msg_zip_entries">アーカイブ内のファイル：%1$d</string>
+    <string name="msg_error">操作に失敗しました</string>
+    <string name="msg_cancelled">キャンセルしました</string>
+
+    <string name="img_select">画像を選択</string>
+    <string name="img_selected_count">選択済み：%1$d</string>
+    <string name="img_format">形式</string>
+    <string name="img_quality">品質</string>
+    <string name="img_scale">縮小率</string>
+    <string name="img_scale_percent">%1$d%%</string>
+    <string name="img_crop">アスペクト比</string>
+    <string name="img_crop_original">元のまま</string>
+    <string name="img_crop_1_1">1:1</string>
+    <string name="img_crop_4_3">4:3</string>
+    <string name="img_crop_16_9">16:9</string>
+    <string name="img_crop_18_9">18:9</string>
+    <string name="img_crop_19_6">19:6</string>
+    <string name="img_crop_21_9">21:9</string>
+    <string name="img_crop_custom">カスタム</string>
+    <string name="img_custom_ratio_title">カスタムアスペクト比</string>
+    <string name="img_custom_w">幅</string>
+    <string name="img_custom_h">高さ</string>
+    <string name="img_convert">変換</string>
+    <string name="msg_image_done">画像を変換しました</string>
+    <string name="msg_images_done">変換済み：%1$d</string>
+    <string name="msg_images_done_with_failures">変換済み：%1$d、失敗：%2$d</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">キャンセル</string>
+
+    <string name="docs_open">ドキュメントを開く</string>
+    <string name="docs_close">閉じる</string>
+    <string name="docs_open_external">他のアプリで開く</string>
+    <string name="docs_edit_external">他のアプリで編集</string>
+    <string name="msg_docs_no_preview">このファイルはプレビューできません</string>
+    <string name="msg_docs_unsupported">この形式はサポートされていません。別のアプリでファイルを開いてください。</string>
+    <string name="msg_no_app">このファイルを開けるアプリが見つかりません</string>
+
+    <string name="ocr_camera">カメラ</string>
+    <string name="ocr_gallery">ギャラリー</string>
+    <string name="ocr_languages">言語：ロシア語 + 英語。モデルは初回使用時にダウンロードされます。</string>
+    <string name="ocr_recognize">テキストを認識</string>
+    <string name="ocr_text_label">認識したテキスト</string>
+    <string name="ocr_copy">コピー</string>
+    <string name="ocr_share">共有</string>
+    <string name="ocr_save">TXT として保存</string>
+    <string name="ocr_downloading_models">言語モデルをダウンロード中：%1$d%%</string>
+    <string name="ocr_done">テキストを認識しました</string>
+    <string name="ocr_no_text">テキストが見つかりません</string>
+    <string name="ocr_saved">保存しました</string>
+
+    <string name="merge_hint">ファイルの順序を設定し、1 つの PDF に結合します。</string>
+    <string name="merge_mode_pdfs">PDF ファイル</string>
+    <string name="merge_mode_images">画像</string>
+    <string name="merge_select_pdfs">PDF ファイルを追加</string>
+    <string name="merge_select_images">画像を追加</string>
+    <string name="merge_take_photo">写真を撮る</string>
+    <string name="merge_move_up">上へ移動</string>
+    <string name="merge_move_down">下へ移動</string>
+    <string name="merge_remove">削除</string>
+    <string name="merge_clear">リストをクリア</string>
+    <string name="merge_create">PDF を作成</string>
+    <string name="msg_pdf_ready">PDF を作成しました</string>
+
+    <string name="compress_select">PDF を選択</string>
+    <string name="compress_mode">圧縮モード</string>
+    <string name="compress_mode_safe">安全</string>
+    <string name="compress_mode_safe_desc">ページの見た目を変えずに冗長なデータを削除します。サイズの削減はわずかです。</string>
+    <string name="compress_mode_strong">強力</string>
+    <string name="compress_mode_strong_desc">各ページを JPEG 画像として描画します。テキストは選択できなくなり、画質が低下します。</string>
+    <string name="compress_compress">PDF を圧縮</string>
+    <string name="msg_pdf_compressed">圧縮しました：%1$s → %2$s</string>
+    <string name="msg_pdf_compressed_done">PDF を圧縮しました</string>
+</resources>

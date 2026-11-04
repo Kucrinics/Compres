@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kompres</string>
+    <string name="home_subtitle">Nén, chuyển đổi và sắp xếp tệp</string>
+
+    <string name="card_zip">Tệp ZIP</string>
+    <string name="card_images">Hình ảnh</string>
+    <string name="card_docs">Tài liệu</string>
+    <string name="card_ocr">OCR</string>
+    <string name="card_merge">Hợp nhất</string>
+    <string name="card_compress">Nén PDF</string>
+
+    <string name="desc_zip">Tạo và giải nén tệp ZIP</string>
+    <string name="desc_images">Chuyển đổi, nén và cắt ảnh</string>
+    <string name="desc_docs">Xem trước PDF và tài liệu Office</string>
+    <string name="desc_ocr">Nhận dạng văn bản từ ảnh</string>
+    <string name="desc_merge">Kết hợp PDF và hình ảnh thành một PDF</string>
+    <string name="desc_compress">Giảm dung lượng tệp PDF</string>
+
+    <string name="coming_soon">Sắp ra mắt</string>
+    <string name="action_back">Quay lại</string>
+    <string name="nav_settings">Cài đặt</string>
+
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_analytics_title">Gửi thống kê ẩn danh</string>
+    <string name="settings_analytics_summary">Giúp cải thiện ứng dụng. Không có tệp hay dữ liệu cá nhân nào được gửi.</string>
+    <string name="settings_privacy">Chính sách quyền riêng tư</string>
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_language_system">Theo hệ thống</string>
+
+    <string name="privacy_title">Chính sách quyền riêng tư</string>
+    <string name="privacy_body">Chính sách quyền riêng tư\n\nĐơn vị vận hành: Vyacheslav Kushnir\nLiên hệ: slava13795kush@mail.ru\n\n1. Xử lý tệp. Mọi tệp được xử lý cục bộ trên thiết bị của bạn. Ứng dụng không tải tệp của bạn lên máy chủ nào.\n\n2. Phân tích. Với sự đồng ý của bạn, ứng dụng thu thập thống kê sử dụng ẩn danh (màn hình đã mở và tính năng đã dùng) bằng AppMetrica và MyTracker. Dữ liệu này không chứa nội dung tệp hay thông tin cá nhân. Bạn có thể tắt bất cứ lúc nào trong Cài đặt.\n\n3. Quyền. Truy cập internet chỉ dùng cho phân tích và tải mô hình ngôn ngữ OCR. Các SDK phân tích truy cập mã nhận dạng quảng cáo.\n\n4. Lưu trữ dữ liệu. Thống kê được các nhà cung cấp phân tích lưu trữ theo chính sách của họ.\n\n5. Liên hệ. Nếu có câu hỏi, hãy liên hệ đơn vị vận hành qua email ở trên.</string>
+
+    <string name="zip_level">Mức nén</string>
+    <string name="zip_level_store">Không nén</string>
+    <string name="zip_level_fast">Nhanh</string>
+    <string name="zip_level_normal">Thường</string>
+    <string name="zip_level_max">Tối đa</string>
+    <string name="zip_create">Tạo tệp nén</string>
+    <string name="zip_extract">Giải nén</string>
+    <string name="zip_preview">Xem nội dung</string>
+    <string name="zip_cancel">Hủy</string>
+    <string name="zip_clear">Xóa</string>
+    <string name="zip_extract_selected">Giải nén mục đã chọn (%1$d)</string>
+    <string name="msg_zip_created">Đã tạo tệp nén</string>
+    <string name="msg_zip_extracted">Đã giải nén: %1$d tệp</string>
+    <string name="msg_zip_entries">Tệp trong kho: %1$d</string>
+    <string name="msg_error">Thao tác thất bại</string>
+    <string name="msg_cancelled">Đã hủy</string>
+
+    <string name="img_select">Chọn ảnh</string>
+    <string name="img_selected_count">Đã chọn: %1$d</string>
+    <string name="img_format">Định dạng</string>
+    <string name="img_quality">Chất lượng</string>
+    <string name="img_scale">Tỷ lệ</string>
+    <string name="img_scale_percent">%1$d%%</string>
+    <string name="img_crop">Tỷ lệ khung hình</string>
+    <string name="img_crop_original">Gốc</string>
+    <string name="img_crop_1_1">1:1</string>
+    <string name="img_crop_4_3">4:3</string>
+    <string name="img_crop_16_9">16:9</string>
+    <string name="img_crop_18_9">18:9</string>
+    <string name="img_crop_19_6">19:6</string>
+    <string name="img_crop_21_9">21:9</string>
+    <string name="img_crop_custom">Tùy chỉnh</string>
+    <string name="img_custom_ratio_title">Tỷ lệ khung hình tùy chỉnh</string>
+    <string name="img_custom_w">Chiều rộng</string>
+    <string name="img_custom_h">Chiều cao</string>
+    <string name="img_convert">Chuyển đổi</string>
+    <string name="msg_image_done">Đã chuyển đổi ảnh</string>
+    <string name="msg_images_done">Đã chuyển đổi: %1$d</string>
+    <string name="msg_images_done_with_failures">Đã chuyển đổi: %1$d, lỗi: %2$d</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Hủy</string>
+
+    <string name="docs_open">Mở tài liệu</string>
+    <string name="docs_close">Đóng</string>
+    <string name="docs_open_external">Mở bằng ứng dụng khác</string>
+    <string name="docs_edit_external">Chỉnh sửa bằng ứng dụng khác</string>
+    <string name="msg_docs_no_preview">Không có bản xem trước cho tệp này</string>
+    <string name="msg_docs_unsupported">Định dạng này không được hỗ trợ. Mở tệp bằng ứng dụng khác.</string>
+    <string name="msg_no_app">Không tìm thấy ứng dụng để mở tệp này</string>
+
+    <string name="ocr_camera">Máy ảnh</string>
+    <string name="ocr_gallery">Thư viện</string>
+    <string name="ocr_languages">Ngôn ngữ: Nga + Anh. Mô hình được tải xuống trong lần sử dụng đầu tiên.</string>
+    <string name="ocr_recognize">Nhận dạng văn bản</string>
+    <string name="ocr_text_label">Văn bản đã nhận dạng</string>
+    <string name="ocr_copy">Sao chép</string>
+    <string name="ocr_share">Chia sẻ</string>
+    <string name="ocr_save">Lưu dạng TXT</string>
+    <string name="ocr_downloading_models">Đang tải mô hình ngôn ngữ: %1$d%%</string>
+    <string name="ocr_done">Đã nhận dạng văn bản</string>
+    <string name="ocr_no_text">Không tìm thấy văn bản</string>
+    <string name="ocr_saved">Đã lưu</string>
+
+    <string name="merge_hint">Đặt thứ tự tệp, sau đó kết hợp chúng thành một PDF.</string>
+    <string name="merge_mode_pdfs">Tệp PDF</string>
+    <string name="merge_mode_images">Hình ảnh</string>
+    <string name="merge_select_pdfs">Thêm tệp PDF</string>
+    <string name="merge_select_images">Thêm ảnh</string>
+    <string name="merge_take_photo">Chụp ảnh</string>
+    <string name="merge_move_up">Di chuyển lên</string>
+    <string name="merge_move_down">Di chuyển xuống</string>
+    <string name="merge_remove">Xóa</string>
+    <string name="merge_clear">Xóa danh sách</string>
+    <string name="merge_create">Tạo PDF</string>
+    <string name="msg_pdf_ready">Đã tạo PDF</string>
+
+    <string name="compress_select">Chọn PDF</string>
+    <string name="compress_mode">Chế độ nén</string>
+    <string name="compress_mode_safe">An toàn</string>
+    <string name="compress_mode_safe_desc">Loại bỏ dữ liệu dư thừa mà không thay đổi giao diện trang. Mức giảm dung lượng khiêm tốn.</string>
+    <string name="compress_mode_strong">Mạnh</string>
+    <string name="compress_mode_strong_desc">Mỗi trang được kết xuất thành ảnh JPEG. Văn bản không còn chọn được và chất lượng giảm.</string>
+    <string name="compress_compress">Nén PDF</string>
+    <string name="msg_pdf_compressed">Đã nén: %1$s → %2$s</string>
+    <string name="msg_pdf_compressed_done">Đã nén PDF</string>
+</resources>

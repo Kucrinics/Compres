@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kompres</string>
+    <string name="home_subtitle">Compacte, converta e organize arquivos</string>
+
+    <string name="card_zip">Arquivo ZIP</string>
+    <string name="card_images">Imagens</string>
+    <string name="card_docs">Documentos</string>
+    <string name="card_ocr">OCR</string>
+    <string name="card_merge">Unir</string>
+    <string name="card_compress">Comprimir PDF</string>
+
+    <string name="desc_zip">Criar e extrair arquivos ZIP</string>
+    <string name="desc_images">Converta, comprima e recorte imagens</string>
+    <string name="desc_docs">Visualize PDF e documentos do Office</string>
+    <string name="desc_ocr">Reconheça texto de fotos</string>
+    <string name="desc_merge">Combine PDFs e imagens em um único PDF</string>
+    <string name="desc_compress">Reduza o tamanho do PDF</string>
+
+    <string name="coming_soon">Em breve</string>
+    <string name="action_back">Voltar</string>
+    <string name="nav_settings">Configurações</string>
+
+    <string name="settings_title">Configurações</string>
+    <string name="settings_analytics_title">Enviar estatísticas anônimas</string>
+    <string name="settings_analytics_summary">Ajuda a melhorar o app. Nenhum arquivo ou dado pessoal é enviado.</string>
+    <string name="settings_privacy">Política de privacidade</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_language_system">Padrão do sistema</string>
+
+    <string name="privacy_title">Política de privacidade</string>
+    <string name="privacy_body">Política de Privacidade\n\nOperador: Vyacheslav Kushnir\nContato: slava13795kush@mail.ru\n\n1. Processamento de arquivos. Todos os arquivos são processados localmente no seu dispositivo. O app não envia seus arquivos para nenhum servidor.\n\n2. Análise. Com o seu consentimento, o app coleta estatísticas de uso anônimas (telas abertas e recursos usados) usando AppMetrica e MyTracker. Esses dados não contêm o conteúdo dos arquivos nem informações pessoais. Você pode desativar isso a qualquer momento nas Configurações.\n\n3. Permissões. O acesso à internet é usado apenas para análise e para baixar modelos de idioma do OCR. Os SDKs de análise acessam o identificador de publicidade.\n\n4. Retenção de dados. As estatísticas são armazenadas pelos provedores de análise de acordo com suas políticas.\n\n5. Contato. Em caso de dúvidas, entre em contato com o operador pelo e-mail acima.</string>
+
+    <string name="zip_level">Nível de compactação</string>
+    <string name="zip_level_store">Sem compactação</string>
+    <string name="zip_level_fast">Rápida</string>
+    <string name="zip_level_normal">Normal</string>
+    <string name="zip_level_max">Máxima</string>
+    <string name="zip_create">Criar arquivo</string>
+    <string name="zip_extract">Extrair arquivo</string>
+    <string name="zip_preview">Visualizar conteúdo</string>
+    <string name="zip_cancel">Cancelar</string>
+    <string name="zip_clear">Limpar</string>
+    <string name="zip_extract_selected">Extrair selecionados (%1$d)</string>
+    <string name="msg_zip_created">Arquivo criado</string>
+    <string name="msg_zip_extracted">Arquivos extraídos: %1$d</string>
+    <string name="msg_zip_entries">Arquivos no ZIP: %1$d</string>
+    <string name="msg_error">A operação falhou</string>
+    <string name="msg_cancelled">Cancelado</string>
+
+    <string name="img_select">Selecionar imagens</string>
+    <string name="img_selected_count">Selecionadas: %1$d</string>
+    <string name="img_format">Formato</string>
+    <string name="img_quality">Qualidade</string>
+    <string name="img_scale">Escala</string>
+    <string name="img_scale_percent">%1$d%%</string>
+    <string name="img_crop">Proporção</string>
+    <string name="img_crop_original">Original</string>
+    <string name="img_crop_1_1">1:1</string>
+    <string name="img_crop_4_3">4:3</string>
+    <string name="img_crop_16_9">16:9</string>
+    <string name="img_crop_18_9">18:9</string>
+    <string name="img_crop_19_6">19:6</string>
+    <string name="img_crop_21_9">21:9</string>
+    <string name="img_crop_custom">Personalizada</string>
+    <string name="img_custom_ratio_title">Proporção personalizada</string>
+    <string name="img_custom_w">Largura</string>
+    <string name="img_custom_h">Altura</string>
+    <string name="img_convert">Converter</string>
+    <string name="msg_image_done">Imagem convertida</string>
+    <string name="msg_images_done">Convertidas: %1$d</string>
+    <string name="msg_images_done_with_failures">Convertidas: %1$d, falhas: %2$d</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <string name="docs_open">Abrir documento</string>
+    <string name="docs_close">Fechar</string>
+    <string name="docs_open_external">Abrir em outro app</string>
+    <string name="docs_edit_external">Editar em outro app</string>
+    <string name="msg_docs_no_preview">A prévia não está disponível para este arquivo</string>
+    <string name="msg_docs_unsupported">Este formato não é compatível. Abra o arquivo em outro aplicativo.</string>
+    <string name="msg_no_app">Nenhum app encontrado para abrir este arquivo</string>
+
+    <string name="ocr_camera">Câmera</string>
+    <string name="ocr_gallery">Galeria</string>
+    <string name="ocr_languages">Idiomas: russo + inglês. Os modelos são baixados no primeiro uso.</string>
+    <string name="ocr_recognize">Reconhecer texto</string>
+    <string name="ocr_text_label">Texto reconhecido</string>
+    <string name="ocr_copy">Copiar</string>
+    <string name="ocr_share">Compartilhar</string>
+    <string name="ocr_save">Salvar como TXT</string>
+    <string name="ocr_downloading_models">Baixando modelos de idioma: %1$d%%</string>
+    <string name="ocr_done">Texto reconhecido</string>
+    <string name="ocr_no_text">Nenhum texto encontrado</string>
+    <string name="ocr_saved">Salvo</string>
+
+    <string name="merge_hint">Defina a ordem dos arquivos e combine-os em um único PDF.</string>
+    <string name="merge_mode_pdfs">Arquivos PDF</string>
+    <string name="merge_mode_images">Imagens</string>
+    <string name="merge_select_pdfs">Adicionar arquivos PDF</string>
+    <string name="merge_select_images">Adicionar imagens</string>
+    <string name="merge_take_photo">Tirar foto</string>
+    <string name="merge_move_up">Mover para cima</string>
+    <string name="merge_move_down">Mover para baixo</string>
+    <string name="merge_remove">Remover</string>
+    <string name="merge_clear">Limpar lista</string>
+    <string name="merge_create">Criar PDF</string>
+    <string name="msg_pdf_ready">PDF criado</string>
+
+    <string name="compress_select">Selecionar PDF</string>
+    <string name="compress_mode">Modo de compressão</string>
+    <string name="compress_mode_safe">Seguro</string>
+    <string name="compress_mode_safe_desc">Remove dados redundantes sem alterar a aparência das páginas. A redução de tamanho é modesta.</string>
+    <string name="compress_mode_strong">Forte</string>
+    <string name="compress_mode_strong_desc">Renderiza cada página como uma imagem JPEG. O texto deixa de ser selecionável e a qualidade é reduzida.</string>
+    <string name="compress_compress">Comprimir PDF</string>
+    <string name="msg_pdf_compressed">Comprimido: %1$s → %2$s</string>
+    <string name="msg_pdf_compressed_done">PDF comprimido</string>
+</resources>

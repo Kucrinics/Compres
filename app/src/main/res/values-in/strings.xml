@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kompres</string>
+    <string name="home_subtitle">Kompres, konversi, dan atur file</string>
+
+    <string name="card_zip">Arsip ZIP</string>
+    <string name="card_images">Gambar</string>
+    <string name="card_docs">Dokumen</string>
+    <string name="card_ocr">OCR</string>
+    <string name="card_merge">Gabungkan</string>
+    <string name="card_compress">Kompres PDF</string>
+
+    <string name="desc_zip">Buat dan ekstrak arsip ZIP</string>
+    <string name="desc_images">Konversi, kompres, dan potong gambar</string>
+    <string name="desc_docs">Pratinjau PDF dan dokumen Office</string>
+    <string name="desc_ocr">Kenali teks dari foto</string>
+    <string name="desc_merge">Gabungkan PDF dan gambar menjadi satu PDF</string>
+    <string name="desc_compress">Kurangi ukuran file PDF</string>
+
+    <string name="coming_soon">Segera hadir</string>
+    <string name="action_back">Kembali</string>
+    <string name="nav_settings">Pengaturan</string>
+
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_analytics_title">Kirim statistik anonim</string>
+    <string name="settings_analytics_summary">Membantu meningkatkan aplikasi. Tidak ada file atau data pribadi yang dikirim.</string>
+    <string name="settings_privacy">Kebijakan privasi</string>
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_language_system">Bawaan sistem</string>
+
+    <string name="privacy_title">Kebijakan privasi</string>
+    <string name="privacy_body">Kebijakan Privasi\n\nOperator: Vyacheslav Kushnir\nKontak: slava13795kush@mail.ru\n\n1. Pemrosesan file. Semua file diproses secara lokal di perangkat Anda. Aplikasi tidak mengunggah file Anda ke server mana pun.\n\n2. Analitik. Dengan persetujuan Anda, aplikasi mengumpulkan statistik penggunaan anonim (layar yang dibuka dan fitur yang digunakan) menggunakan AppMetrica dan MyTracker. Data ini tidak berisi isi file atau informasi pribadi. Anda dapat menonaktifkannya kapan saja di Pengaturan.\n\n3. Izin. Akses internet hanya digunakan untuk analitik dan mengunduh model bahasa OCR. SDK analitik mengakses pengenal iklan.\n\n4. Penyimpanan data. Statistik disimpan oleh penyedia analitik sesuai kebijakan mereka.\n\n5. Kontak. Untuk pertanyaan apa pun, hubungi operator melalui email di atas.</string>
+
+    <string name="zip_level">Tingkat kompresi</string>
+    <string name="zip_level_store">Tanpa kompresi</string>
+    <string name="zip_level_fast">Cepat</string>
+    <string name="zip_level_normal">Normal</string>
+    <string name="zip_level_max">Maksimum</string>
+    <string name="zip_create">Buat arsip</string>
+    <string name="zip_extract">Ekstrak arsip</string>
+    <string name="zip_preview">Pratinjau isi</string>
+    <string name="zip_cancel">Batal</string>
+    <string name="zip_clear">Hapus</string>
+    <string name="zip_extract_selected">Ekstrak yang dipilih (%1$d)</string>
+    <string name="msg_zip_created">Arsip dibuat</string>
+    <string name="msg_zip_extracted">File diekstrak: %1$d</string>
+    <string name="msg_zip_entries">File dalam arsip: %1$d</string>
+    <string name="msg_error">Operasi gagal</string>
+    <string name="msg_cancelled">Dibatalkan</string>
+
+    <string name="img_select">Pilih gambar</string>
+    <string name="img_selected_count">Dipilih: %1$d</string>
+    <string name="img_format">Format</string>
+    <string name="img_quality">Kualitas</string>
+    <string name="img_scale">Skala</string>
+    <string name="img_scale_percent">%1$d%%</string>
+    <string name="img_crop">Rasio aspek</string>
+    <string name="img_crop_original">Asli</string>
+    <string name="img_crop_1_1">1:1</string>
+    <string name="img_crop_4_3">4:3</string>
+    <string name="img_crop_16_9">16:9</string>
+    <string name="img_crop_18_9">18:9</string>
+    <string name="img_crop_19_6">19:6</string>
+    <string name="img_crop_21_9">21:9</string>
+    <string name="img_crop_custom">Kustom</string>
+    <string name="img_custom_ratio_title">Rasio aspek kustom</string>
+    <string name="img_custom_w">Lebar</string>
+    <string name="img_custom_h">Tinggi</string>
+    <string name="img_convert">Konversi</string>
+    <string name="msg_image_done">Gambar dikonversi</string>
+    <string name="msg_images_done">Dikonversi: %1$d</string>
+    <string name="msg_images_done_with_failures">Dikonversi: %1$d, gagal: %2$d</string>
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Batal</string>
+
+    <string name="docs_open">Buka dokumen</string>
+    <string name="docs_close">Tutup</string>
+    <string name="docs_open_external">Buka di aplikasi lain</string>
+    <string name="docs_edit_external">Edit di aplikasi lain</string>
+    <string name="msg_docs_no_preview">Pratinjau tidak tersedia untuk file ini</string>
+    <string name="msg_docs_unsupported">Format ini tidak didukung. Buka file di aplikasi lain.</string>
+    <string name="msg_no_app">Tidak ada aplikasi untuk membuka file ini</string>
+
+    <string name="ocr_camera">Kamera</string>
+    <string name="ocr_gallery">Galeri</string>
+    <string name="ocr_languages">Bahasa: Rusia + Inggris. Model diunduh saat pertama kali digunakan.</string>
+    <string name="ocr_recognize">Kenali teks</string>
+    <string name="ocr_text_label">Teks yang dikenali</string>
+    <string name="ocr_copy">Salin</string>
+    <string name="ocr_share">Bagikan</string>
+    <string name="ocr_save">Simpan sebagai TXT</string>
+    <string name="ocr_downloading_models">Mengunduh model bahasa: %1$d%%</string>
+    <string name="ocr_done">Teks dikenali</string>
+    <string name="ocr_no_text">Teks tidak ditemukan</string>
+    <string name="ocr_saved">Disimpan</string>
+
+    <string name="merge_hint">Atur urutan file, lalu gabungkan menjadi satu PDF.</string>
+    <string name="merge_mode_pdfs">File PDF</string>
+    <string name="merge_mode_images">Gambar</string>
+    <string name="merge_select_pdfs">Tambah file PDF</string>
+    <string name="merge_select_images">Tambah gambar</string>
+    <string name="merge_take_photo">Ambil foto</string>
+    <string name="merge_move_up">Naikkan</string>
+    <string name="merge_move_down">Turunkan</string>
+    <string name="merge_remove">Hapus</string>
+    <string name="merge_clear">Kosongkan daftar</string>
+    <string name="merge_create">Buat PDF</string>
+    <string name="msg_pdf_ready">PDF dibuat</string>
+
+    <string name="compress_select">Pilih PDF</string>
+    <string name="compress_mode">Mode kompresi</string>
+    <string name="compress_mode_safe">Aman</string>
+    <string name="compress_mode_safe_desc">Menghapus data berlebih tanpa mengubah tampilan halaman. Pengurangan ukuran sedikit.</string>
+    <string name="compress_mode_strong">Kuat</string>
+    <string name="compress_mode_strong_desc">Setiap halaman dirender sebagai gambar JPEG. Teks tidak lagi dapat dipilih dan kualitas berkurang.</string>
+    <string name="compress_compress">Kompres PDF</string>
+    <string name="msg_pdf_compressed">Dikompresi: %1$s → %2$s</string>
+    <string name="msg_pdf_compressed_done">PDF dikompresi</string>
+</resources>

@@ -1,0 +1,21 @@
+.gradle/
+build/
+local.properties
+keystore.properties
+keystore/
+*.jks
+*.keystore
+*.apk
+.idea/
+
+# sandbox additions
+.gradle/
+.kotlin/
+.idea/
+build/
+app/build/
+local.properties
+keystore.properties
+keystore/
+*.jks
+*.idsig

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kompres</string>
+    <string name="home_subtitle">压缩、转换和整理文件</string>
+
+    <string name="card_zip">ZIP 压缩包</string>
+    <string name="card_images">图片</string>
+    <string name="card_docs">文档</string>
+    <string name="card_ocr">OCR</string>
+    <string name="card_merge">合并</string>
+    <string name="card_compress">压缩 PDF</string>
+
+    <string name="desc_zip">创建和解压 ZIP 压缩包</string>
+    <string name="desc_images">转换、压缩和裁剪图片</string>
+    <string name="desc_docs">预览 PDF 和 Office 文档</string>
+    <string name="desc_ocr">从照片中识别文字</string>
+    <string name="desc_merge">将 PDF 和图片合并为一个 PDF</string>
+    <string name="desc_compress">减小 PDF 文件大小</string>
+
+    <string name="coming_soon">即将推出</string>
+    <string name="action_back">返回</string>
+    <string name="nav_settings">设置</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_analytics_title">发送匿名统计</string>
+    <string name="settings_analytics_summary">帮助改进应用。不会发送任何文件或个人数据。</string>
+    <string name="settings_privacy">隐私政策</string>
+    <string name="settings_language">语言</string>
+    <string name="settings_language_system">跟随系统</string>
+
+    <string name="privacy_title">隐私政策</string>
+    <string name="privacy_body">隐私政策\n\n运营者：Vyacheslav Kushnir\n联系方式：slava13795kush@mail.ru\n\n1. 文件处理。所有文件均在您的设备本地处理。本应用不会将您的文件上传到任何服务器。\n\n2. 统计分析。经您同意，本应用使用 AppMetrica 和 MyTracker 收集匿名使用统计（打开的页面和使用的功能）。这些数据不包含文件内容或个人信息。您可以随时在设置中关闭。\n\n3. 权限。网络访问仅用于统计分析和下载 OCR 语言模型。统计 SDK 会访问广告标识符。\n\n4. 数据保留。统计数据由分析服务商按其政策存储。\n\n5. 联系方式。如有任何问题，请通过上述电子邮件联系运营者。</string>
+
+    <string name="zip_level">压缩级别</string>
+    <string name="zip_level_store">仅存储</string>
+    <string name="zip_level_fast">快速</string>
+    <string name="zip_level_normal">普通</string>
+    <string name="zip_level_max">最大</string>
+    <string name="zip_create">创建压缩包</string>
+    <string name="zip_extract">解压</string>
+    <string name="zip_preview">预览内容</string>
+    <string name="zip_cancel">取消</string>
+    <string name="zip_clear">清除</string>
+    <string name="zip_extract_selected">解压所选 (%1$d)</string>
+    <string name="msg_zip_created">压缩包已创建</string>
+    <string name="msg_zip_extracted">已解压文件：%1$d</string>
+    <string name="msg_zip_entries">压缩包内文件：%1$d</string>
+    <string name="msg_error">操作失败</string>
+    <string name="msg_cancelled">已取消</string>
+
+    <string name="img_select">选择图片</string>
+    <string name="img_selected_count">已选择：%1$d</string>
+    <string name="img_format">格式</string>
+    <string name="img_quality">质量</string>
+    <string name="img_scale">缩放</string>
+    <string name="img_scale_percent">%1$d%%</string>
+    <string name="img_crop">宽高比</string>
+    <string name="img_crop_original">原始</string>
+    <string name="img_crop_1_1">1:1</string>
+    <string name="img_crop_4_3">4:3</string>
+    <string name="img_crop_16_9">16:9</string>
+    <string name="img_crop_18_9">18:9</string>
+    <string name="img_crop_19_6">19:6</string>
+    <string name="img_crop_21_9">21:9</string>
+    <string name="img_crop_custom">自定义</string>
+    <string name="img_custom_ratio_title">自定义宽高比</string>
+    <string name="img_custom_w">宽度</string>
+    <string name="img_custom_h">高度</string>
+    <string name="img_convert">转换</string>
+    <string name="msg_image_done">图片已转换</string>
+    <string name="msg_images_done">已转换：%1$d</string>
+    <string name="msg_images_done_with_failures">已转换：%1$d，失败：%2$d</string>
+    <string name="action_ok">确定</string>
+    <string name="action_cancel">取消</string>
+
+    <string name="docs_open">打开文档</string>
+    <string name="docs_close">关闭</string>
+    <string name="docs_open_external">用其他应用打开</string>
+    <string name="docs_edit_external">用其他应用编辑</string>
+    <string name="msg_docs_no_preview">此文件无法预览</string>
+    <string name="msg_docs_unsupported">不支持此格式。请在其他应用中打开该文件。</string>
+    <string name="msg_no_app">未找到可打开此文件的应用</string>
+
+    <string name="ocr_camera">相机</string>
+    <string name="ocr_gallery">图库</string>
+    <string name="ocr_languages">语言：俄语 + 英语。模型将在首次使用时下载。</string>
+    <string name="ocr_recognize">识别文字</string>
+    <string name="ocr_text_label">识别结果</string>
+    <string name="ocr_copy">复制</string>
+    <string name="ocr_share">分享</string>
+    <string name="ocr_save">保存为 TXT</string>
+    <string name="ocr_downloading_models">正在下载语言模型：%1$d%%</string>
+    <string name="ocr_done">文字识别完成</string>
+    <string name="ocr_no_text">未找到文字</string>
+    <string name="ocr_saved">已保存</string>
+
+    <string name="merge_hint">设置文件顺序，然后将它们合并为一个 PDF。</string>
+    <string name="merge_mode_pdfs">PDF 文件</string>
+    <string name="merge_mode_images">图片</string>
+    <string name="merge_select_pdfs">添加 PDF 文件</string>
+    <string name="merge_select_images">添加图片</string>
+    <string name="merge_take_photo">拍照</string>
+    <string name="merge_move_up">上移</string>
+    <string name="merge_move_down">下移</string>
+    <string name="merge_remove">移除</string>
+    <string name="merge_clear">清空列表</string>
+    <string name="merge_create">创建 PDF</string>
+    <string name="msg_pdf_ready">PDF 已创建</string>
+
+    <string name="compress_select">选择 PDF</string>
+    <string name="compress_mode">压缩模式</string>
+    <string name="compress_mode_safe">安全</string>
+    <string name="compress_mode_safe_desc">删除冗余数据而不改变页面外观。文件大小减少有限。</string>
+    <string name="compress_mode_strong">强力</string>
+    <string name="compress_mode_strong_desc">每页渲染为 JPEG 图像。文字将无法选择，画质会降低。</string>
+    <string name="compress_compress">压缩 PDF</string>
+    <string name="msg_pdf_compressed">已压缩：%1$s → %2$s</string>
+    <string name="msg_pdf_compressed_done">PDF 已压缩</string>
+</resources>

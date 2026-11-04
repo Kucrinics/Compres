@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kompres</string>
+    <string name="home_subtitle">फ़ाइलें कंप्रेस, कन्वर्ट और व्यवस्थित करें</string>
+
+    <string name="card_zip">ZIP संग्रह</string>
+    <string name="card_images">छवियाँ</string>
+    <string name="card_docs">दस्तावेज़</string>
+    <string name="card_ocr">OCR</string>
+    <string name="card_merge">मर्ज करें</string>
+    <string name="card_compress">PDF कंप्रेस करें</string>
+
+    <string name="desc_zip">ZIP संग्रह बनाएँ और निकालें</string>
+    <string name="desc_images">छवियाँ कन्वर्ट, कंप्रेस और क्रॉप करें</string>
+    <string name="desc_docs">PDF और Office दस्तावेज़ों का पूर्वावलोकन करें</string>
+    <string name="desc_ocr">फ़ोटो से टेक्स्ट पहचानें</string>
+    <string name="desc_merge">PDF और छवियों को एक PDF में मिलाएँ</string>
+    <string name="desc_compress">PDF फ़ाइल का आकार घटाएँ</string>
+
+    <string name="coming_soon">जल्द आ रहा है</string>
+    <string name="action_back">वापस</string>
+    <string name="nav_settings">सेटिंग्स</string>
+
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_analytics_title">अनाम आँकड़े भेजें</string>
+    <string name="settings_analytics_summary">ऐप को बेहतर बनाने में मदद करता है। कोई फ़ाइल या व्यक्तिगत डेटा नहीं भेजा जाता।</string>
+    <string name="settings_privacy">गोपनीयता नीति</string>
+    <string name="settings_language">भाषा</string>
+    <string name="settings_language_system">सिस्टम डिफ़ॉल्ट</string>
+
+    <string name="privacy_title">गोपनीयता नीति</string>
+    <string name="privacy_body">गोपनीयता नीति\n\nऑपरेटर: Vyacheslav Kushnir\nसंपर्क: slava13795kush@mail.ru\n\n1. फ़ाइल प्रोसेसिंग। सभी फ़ाइलें आपके डिवाइस पर स्थानीय रूप से प्रोसेस होती हैं। ऐप आपकी फ़ाइलें किसी भी सर्वर पर अपलोड नहीं करता।\n\n2. एनालिटिक्स। आपकी सहमति से, ऐप AppMetrica और MyTracker का उपयोग करके अनाम उपयोग आँकड़े (खोली गई स्क्रीन और उपयोग की गई सुविधाएँ) एकत्र करता है। इन डेटा में फ़ाइल सामग्री या व्यक्तिगत जानकारी नहीं होती। आप इसे सेटिंग्स में कभी भी बंद कर सकते हैं।\n\n3. अनुमतियाँ। इंटरनेट एक्सेस केवल एनालिटिक्स और OCR भाषा मॉडल डाउनलोड करने के लिए उपयोग होता है। एनालिटिक्स SDK विज्ञापन पहचानकर्ता तक पहुँचते हैं।\n\n4. डेटा प्रतिधारण। आँकड़े एनालिटिक्स प्रदाताओं द्वारा उनकी नीतियों के अनुसार संग्रहीत किए जाते हैं।\n\n5. संपर्क। किसी भी प्रश्न के लिए ऊपर दिए गए ईमेल पर ऑपरेटर से संपर्क करें।</string>
+
+    <string name="zip_level">कंप्रेशन स्तर</string>
+    <string name="zip_level_store">बिना कंप्रेशन</string>
+    <string name="zip_level_fast">तेज़</string>
+    <string name="zip_level_normal">सामान्य</string>
+    <string name="zip_level_max">अधिकतम</string>
+    <string name="zip_create">संग्रह बनाएँ</string>
+    <string name="zip_extract">संग्रह निकालें</string>
+    <string name="zip_preview">सामग्री देखें</string>
+    <string name="zip_cancel">रद्द करें</string>
+    <string name="zip_clear">साफ़ करें</string>
+    <string name="zip_extract_selected">चुने हुए निकालें (%1$d)</string>
+    <string name="msg_zip_created">संग्रह बन गया</string>
+    <string name="msg_zip_extracted">निकाली गई फ़ाइलें: %1$d</string>
+    <string name="msg_zip_entries">संग्रह में फ़ाइलें: %1$d</string>
+    <string name="msg_error">कार्रवाई विफल</string>
+    <string name="msg_cancelled">रद्द किया गया</string>
+
+    <string name="img_select">छवियाँ चुनें</string>
+    <string name="img_selected_count">चयनित: %1$d</string>
+    <string name="img_format">फ़ॉर्मेट</string>
+    <string name="img_quality">गुणवत्ता</string>
+    <string name="img_scale">स्केल</string>
+    <string name="img_scale_percent">%1$d%%</string>
+    <string name="img_crop">पहलू अनुपात</string>
+    <string name="img_crop_original">मूल</string>
+    <string name="img_crop_1_1">1:1</string>
+    <string name="img_crop_4_3">4:3</string>
+    <string name="img_crop_16_9">16:9</string>
+    <string name="img_crop_18_9">18:9</string>
+    <string name="img_crop_19_6">19:6</string>
+    <string name="img_crop_21_9">21:9</string>
+    <string name="img_crop_custom">कस्टम</string>
+    <string name="img_custom_ratio_title">कस्टम पहलू अनुपात</string>
+    <string name="img_custom_w">चौड़ाई</string>
+    <string name="img_custom_h">ऊँचाई</string>
+    <string name="img_convert">कन्वर्ट करें</string>
+    <string name="msg_image_done">छवि कन्वर्ट हो गई</string>
+    <string name="msg_images_done">कन्वर्ट हुईं: %1$d</string>
+    <string name="msg_images_done_with_failures">कन्वर्ट हुईं: %1$d, विफल: %2$d</string>
+    <string name="action_ok">ठीक है</string>
+    <string name="action_cancel">रद्द करें</string>
+
+    <string name="docs_open">दस्तावेज़ खोलें</string>
+    <string name="docs_close">बंद करें</string>
+    <string name="docs_open_external">दूसरे ऐप में खोलें</string>
+    <string name="docs_edit_external">दूसरे ऐप में संपादित करें</string>
+    <string name="msg_docs_no_preview">इस फ़ाइल के लिए पूर्वावलोकन उपलब्ध नहीं है</string>
+    <string name="msg_docs_unsupported">यह प्रारूप समर्थित नहीं है। फ़ाइल को किसी अन्य ऐप में खोलें।</string>
+    <string name="msg_no_app">इस फ़ाइल को खोलने के लिए कोई ऐप नहीं मिला</string>
+
+    <string name="ocr_camera">कैमरा</string>
+    <string name="ocr_gallery">गैलरी</string>
+    <string name="ocr_languages">भाषाएँ: रूसी + अंग्रेज़ी। मॉडल पहली बार उपयोग पर डाउनलोड होते हैं।</string>
+    <string name="ocr_recognize">टेक्स्ट पहचानें</string>
+    <string name="ocr_text_label">पहचाना गया टेक्स्ट</string>
+    <string name="ocr_copy">कॉपी करें</string>
+    <string name="ocr_share">साझा करें</string>
+    <string name="ocr_save">TXT के रूप में सहेजें</string>
+    <string name="ocr_downloading_models">भाषा मॉडल डाउनलोड हो रहे हैं: %1$d%%</string>
+    <string name="ocr_done">टेक्स्ट पहचाना गया</string>
+    <string name="ocr_no_text">कोई टेक्स्ट नहीं मिला</string>
+    <string name="ocr_saved">सहेजा गया</string>
+
+    <string name="merge_hint">फ़ाइलों का क्रम तय करें, फिर उन्हें एक PDF में मिलाएँ।</string>
+    <string name="merge_mode_pdfs">PDF फ़ाइलें</string>
+    <string name="merge_mode_images">छवियाँ</string>
+    <string name="merge_select_pdfs">PDF फ़ाइलें जोड़ें</string>
+    <string name="merge_select_images">छवियाँ जोड़ें</string>
+    <string name="merge_take_photo">फ़ोटो लें</string>
+    <string name="merge_move_up">ऊपर ले जाएँ</string>
+    <string name="merge_move_down">नीचे ले जाएँ</string>
+    <string name="merge_remove">हटाएँ</string>
+    <string name="merge_clear">सूची साफ़ करें</string>
+    <string name="merge_create">PDF बनाएँ</string>
+    <string name="msg_pdf_ready">PDF बन गया</string>
+
+    <string name="compress_select">PDF चुनें</string>
+    <string name="compress_mode">कंप्रेशन मोड</string>
+    <string name="compress_mode_safe">सुरक्षित</string>
+    <string name="compress_mode_safe_desc">पेजों का रूप बदले बिना अनावश्यक डेटा हटाता है। आकार में कमी सीमित है।</string>
+    <string name="compress_mode_strong">मज़बूत</string>
+    <string name="compress_mode_strong_desc">हर पेज को JPEG छवि के रूप में रेंडर करता है। टेक्स्ट अब चुना नहीं जा सकेगा और गुणवत्ता कम हो जाएगी।</string>
+    <string name="compress_compress">PDF कंप्रेस करें</string>
+    <string name="msg_pdf_compressed">कंप्रेस हुआ: %1$s → %2$s</string>
+    <string name="msg_pdf_compressed_done">PDF कंप्रेस हो गया</string>
+</resources>
